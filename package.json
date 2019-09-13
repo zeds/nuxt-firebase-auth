@@ -15,9 +15,9 @@
     "fdeploy": "yarn build && firebase deploy"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^2.4.0",
-    "firebase": "5.4.2",
-    "nuxt": "^1.4.2",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "firebase": "6.6.0",
+    "nuxt": "^2.6.3",
     "push-dir": "^0.4.1",
     "vuetify": "^1.2.1"
   },
