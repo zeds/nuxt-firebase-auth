@@ -9,6 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "fdeploy": "yarn build && firebase deploy"
@@ -17,6 +18,7 @@
     "@nuxtjs/pwa": "^2.4.0",
     "firebase": "5.4.2",
     "nuxt": "^1.4.2",
+    "push-dir": "^0.4.1",
     "vuetify": "^1.2.1"
   },
   "devDependencies": {
